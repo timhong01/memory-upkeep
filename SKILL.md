@@ -1,6 +1,6 @@
 ---
 name: memory-upkeep
-description: 維護 Claude Code 專案的記憶檔案結構（MEMORY.md 索引 + 主題檔 + CLAUDE.md 指路），並在必要時壓縮、歸檔、同步到 repo。當使用者說「整理記憶」「記憶檔該整理了」「context 又要滿了」「幫我做記憶同步」「開新 session 前先收尾」「記憶檔太胖」，或是隔了一陣子回頭要繼續開發、需要重建脈絡時，一律使用這個 skill。使用者不必說出「skill」或「記憶檔」等字眼——只要話題涉及 session 收尾、context 用量、跨 session 延續、或回頭接手舊專案，就該觸發。
+description: 維護 Claude Code 專案的記憶檔案結構（MEMORY.md 索引 + 主題檔 + CLAUDE.md 指路），並在必要時壓縮、歸檔、同步到 repo。當使用者說「整理記憶」「記憶檔該整理了」「context 又要滿了」「幫我做記憶同步」「開新 session 前先收尾」「記憶檔太胖」，或是隔了一陣子回頭要繼續開發、需要重建脈絡時，一律使用這個 skill。使用者不必說出「skill」或「記憶檔」等字眼——只要話題涉及 session 收尾、context 用量、跨 session 延續、或回頭接手舊專案，就該觸發。 English triggers: "tidy up my memory files", "my MEMORY.md is too big", "context is filling up", "wrap up this session", "sync my memory to the repo", "catch me up on this project", "what was I working on here", or coming back to a project after time away. Trigger on these even when the user never says "skill" or "memory file" — any mention of session wrap-up, context usage, carrying work across sessions, or picking up an old project is enough.
 ---
 
 # 記憶檔維護（memory-upkeep）

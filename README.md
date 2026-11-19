@@ -40,7 +40,7 @@ This grew out of running a production system through launch and incident respons
 
 Several judgement calls here are specific to how one project ran. Treat them as a starting point and rewrite them for your own situation rather than adopting them wholesale.
 
-The skill body is written in Traditional Chinese, including its trigger description — if you work in another language, translate the `description` field in the frontmatter so it matches how you actually phrase these requests.
+The skill body is written in Traditional Chinese; the trigger description carries both Chinese and English phrasings, so it fires either way. If you work in a third language, add your own phrasings to the `description` field in the frontmatter — that field is what decides when the skill fires.
 
 ## License
 
