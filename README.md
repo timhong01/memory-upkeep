@@ -21,6 +21,15 @@ Commit logs, deployment versions, and day-by-day development notes already live 
 - Environment-specific rules: when pushing is optional, and when forgetting to push wipes your memory entirely
 - Working safely across several parallel sessions
 
+## Two layers
+
+| File | What it is |
+|---|---|
+| [`AGENTS.md`](AGENTS.md) | The method itself, in tool-neutral terms. Readable by Codex, Cursor, Gemini CLI and anything else that follows the AGENTS.md convention. |
+| [`SKILL.md`](SKILL.md) | The Claude Code implementation — its file layout, its commands, how to read its context breakdown. |
+
+If you are not using Claude Code, read `AGENTS.md` and map the mechanics onto whatever your tool provides.
+
 ## Installation
 
 Place `SKILL.md` at:

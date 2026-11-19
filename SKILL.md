@@ -7,6 +7,8 @@ description: 維護 Claude Code 專案的記憶檔案結構（MEMORY.md 索引 +
 
 這個 skill 處理 Claude Code 專案的長期記憶：讓跨 session 的脈絡不流失、不膨脹、不過期。
 
+方法論本身的工具中立版本在 `AGENTS.md`；這份檔案是 Claude Code 的實作。
+
 ## 核心原則（違反這條，其他都白做）
 
 **記憶檔只記錄「無法從 repo 重新推導」的東西。**
